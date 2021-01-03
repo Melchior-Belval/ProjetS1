@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/blog/">
+    <link rel="stylesheet" href="./Styles/styleprojet.css">
+
+    <!-- Favicons -->
+    <link rel="icon" href="./Images/logoiut.jpg" sizes="180x180">
+    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  </head>
+  
+  
+  <body>
+
+  <div class="container-nogutter">
+    <header class="blog-header">
+      <a href="http://www.iut-lens.univ-artois.fr"><img src="./Images/Logo_IUT_Lens.svg"></a>
+      <div class="row d-flex justify-content-end">
+        <div class="col-4 d-flex justify-content-end">
+          <a class="lien" href="http://ent.univ-artois.fr/uPortal/f/u29l1s43/normal/render.uP">ENT | </a>
+          <a class="lien" href="https://www.gestionedt.emploisdutempssrc.net/edt/jour">EDT</a>
+        </div>
+      </div>
+    </header>
+
+  
+    <div class="nav-scroller mb-2 test top">
+      <nav class="haut">
+        <ul>
+          <li class="deroulant F1"><a href="#">Formations</a>
+            <ul class="sous">
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/offre-de-formation/" onclick="window.open(this.href); return false;">Offre de formation</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/formation-tout-au-long-de-la-vie/" onclick="window.open(this.href); return false;">Formation tout au long d'une vie</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/alternance" onclick="window.open(this.href); return false;">L'alternance</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/candidater/" onclick="window.open(this.href); return false;">Comment candidater à l'IUT ?</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/sinscrire/" onclick="window.open(this.href); return false;">S'inscrire à l'IUT de Lens</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/certifications-clesc2iprojet-voltaire/" onclick="window.open(this.href); return false;">Certifications : CLES/C2i/projet Voltaire</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/entrepreneuriat/" onclick="window.open(this.href); return false;">Entrepreneuriat</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/formations/accompagnement-des-etudiants/" onclick="window.open(this.href); return false;">Accompagnement des étudiants</a></li> 
+            </ul>
+          </li>
+          <li class="deroulant F2"><a href="#">International</a>
+              <ul class="sous">
+                <li><a href="http://www.iut-lens.univ-artois.fr/formations/offre-de-formation/" onclick="window.open(this.href); return false;">Venir étudier à l’IUT</a></li> 
+                <li><a href="./Projet.html" onclick="window.open(this.href); return false;">Partir à l'étranger</a></li>
+                <li><a href="./objectifs.html" onclick="window.open(this.href); return false;">Objectifs</a></li>
+                <li><a href="./PageDesCV.html" onclick="window.open(this.href); return false;">CV</a></li>
+                <li><a href="./Formulaire-final.html" onclick="window.open(this.href); return false;">Formulaire</a></li>
+                <li><a href="./conseil.html" onclick="window.open(this.href); return false;">Conseils</a></li> 
+              </ul>
+          </li>
+          <li class="deroulant F3"><a href="#">Vie à l'IUT</a>
+            <ul class="sous">
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/documentation/" onclick="window.open(this.href); return false;">Bibliothèque</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/santehandicapassistantes-sociales/" onclick="window.open(this.href); return false;">Santé/Handicap/Assistantes sociales</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/services-et-outils-numeriques/" onclick="window.open(this.href); return false;">Services et outils numériques</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/sport/" onclick="window.open(this.href); return false;">Sport</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/culture/" onclick="window.open(this.href); return false;">Culture</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/vie-pratique/" onclick="window.open(this.href); return false;">Vie pratique</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/vie-associative/" onclick="window.open(this.href); return false;">Vie associative</a></li> 
+              <li><a href="http://www.iut-lens.univ-artois.fr/etudiants/job-etudiant/" onclick="window.open(this.href); return false;">Job étudiant</a></li> 
+            </ul>
+          </li>
+          <li class="deroulant F4"><a href="#">Entreprise</a>
+            <ul class="sous">
+              <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/formation-pour-entreprises/" onclick="window.open(this.href); return false;">Des formations à votre service</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/taxe-apprentissage/" onclick="window.open(this.href); return false;">Taxe d'apprentissage</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/proposer-un-stage-un-emploi/" onclick="window.open(this.href); return false;">Proposer un stage / un emploi</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/entreprises/proposer-un-partenariat/" onclick="window.open(this.href); return false;">Proposer un partenariat</a></li>
+            </ul>
+          </li>
+          <li class="deroulant F5"><a href="#">IUT</a>
+            <ul class="sous">
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/mot-de-la-directrice/" onclick="window.open(this.href); return false;">Mot de la directrice</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/iut-de-lens-en-bref/" onclick="window.open(this.href); return false;">IUT de Lens en bref</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/organisation/" onclick="window.open(this.href); return false;">Organisation</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/les-atouts-de-liut/" onclick="window.open(this.href); return false;">Les atouts de l'IUT</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/plan-dacces/" onclick="window.open(this.href); return false;">Contact et plan d'accès</a></li>
+              <li><a href="http://www.iut-lens.univ-artois.fr/liut/medias/" onclick="window.open(this.href); return false;">Médias</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="image">
+      <div class="col-md-12 px-0">
+        <h1 class="textebg display-4 font-italic">Partir à l'étranger</h1>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+
+  <main role="main" class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <nav class="cote navbar-expand-sm">
+          <ul class="coteh">
+            <li class="cotei">
+              <a class="cotea" href="#top">Haut de la page</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#intro">Introduction</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne2">Les études à l'étranger</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne3">Les stages à l'étranger</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne4">Les prérequis</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne5">Comment postuler ?</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne6">Les aides financières</a>
+            </li>
+            <li class="cotei">
+              <a class="cotea" href="#interne7">Le niveau de langue exigé</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div id="intro">
+      <div class="col-sm-12 col-md-12 offset-md-2">
+        <a id="intro"><h2>Partir à l'Étranger</h2></a>
+        <p>Les étudiants qui le souhaitent ont la possibilité d'effectuer un semestre d'études au cours de leur deuxième année de DUT ou au cours de leur année de licence professionnelle à l'étranger.</p>
+        <p><strong> Pour cela, les étudiants doivent poser leur candidature au cours l'année qui précède leur départ.</strong></p>
+        <p><a href="http://www.univ-artois.fr/international/partir-etudier-letranger/candidature-de-selection" onclick="window.open(this.href); return false;">Plus d'infos sur les modalités</a></p>
+      </div> 
+    </div>
+    <div class=row id="col1"> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen">
+                <a id="interne2"><p class="titredesc">Les études à l'étranger</p><a>
+                <p class="desc">
+                L'IUT a plusieurs partenaires pour continuer à étudier à l'étranger :
+                <ul type="square" style="padding-left: 4%">
+                  <li >UQAC = Université du Québec à Chicoutimi – convention bilatérale</li>
+                  <li>CREPUQ-BCI = Conférence des Recteurs Et Principaux des Universités du Québec</li>
+                  <li>Institute of Technology Sligo (Irlande) – programme Erasmus+</li>
+                  <li>Dundalk Institute of Technology – programme Erasmus+</li>
+                  <li>Université Pablo Olavide – Séville – programme Erasmus+</li>
+                </ul>
+              <p style="padding-left: 2%"><a href="./annexe_etudes.html" onclick="window.open(this.href); return false;">Plus d'infos sur les différents partenaires d'études</a></p>
+              </p>            
+            </div>
+      </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen2" >
+          </div>
+        </div>
+    </div> 
+    
+    <div class=row> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen3">
+            </div>
+        </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen2" >
+            	<a id="interne3"><p class="titredesc">Les Stages à l'étranger</p></a>
+                <p class="desc"style="padding-left: 4%" >
+                  Les étudiants peuvent effectuer leur stage de 2ème année ou de licence professionnelle sous la forme d’un projet de fin d’études au sein d’un établissement partenaire. Dans ce cadre :
+                  <ul type="square"  style="padding-left: 4%">
+                  <li>Les étudiants de DUT 1 postulent en juin pour un stage qui se déroule en 2ème année.</li>
+                   <li>Les étudiants de Licence Professionnelle postulent en septembre pour leur stage de fin d’année.</li>
+                  </ul>
+                </p>
+            <p style="padding-left: 4%">L'IUT a plusieurs partenaires pour effectuer des stages à l'étranger.</pstyle="padding-left: 4%">
+            <p style="padding-left: 2%"><a href="./annexe_stages.html" onclick="window.open(this.href); return false;">Plus d'infos sur les différents partenaires de stages</a></p>  
+            </div>
+        </div> 
+    </div> 
+
+    <div class=row> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen">
+                <a id="interne4"><p class="titredesc">Les Prérequis</p></a>
+                <p class="desc" >
+            <ul type="square" style="padding-left: 4%">
+                <li>Public : les étudiants de première année dans le cadre d’un stage de courte durée. Il est nécessaire de trouver son stage soi-même.</li><br>
+                <li>Les étudiants de deuxième année de DUT ou de licence professionnelle, lorsqu’ils n’effectuent pas un cursus en alternance, peuvent bénéficier des contacts de l’IUT.</li><br>
+                <li>Ces étudiants peuvent également trouver un stage à l’étranger par leurs propres moyens.</li></i>
+              </ul></p>
+           
+            </div>
+      </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen4" >
+          </div>
+        </div>
+    </div> 
+
+    <div class=row> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen5">
+            </div>
+        </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen3" >
+            	<a id="interne5"><p class="titredesc">Comment postuler ?</p></a>
+                <p class="desc" >
+                  <p style="padding-left: 4%">Des réunions d’information régulières permettent aux étudiants de se tenir informer des démarches à effectuer, qui peuvent varier d’un pays à l’autre.</p>
+                  <br>
+                  <p style="padding-left: 4%">L’IUT de Lens aide et accompagne les étudiants dans la construction de leur dossier de candidature et dans la préparation de leur séjour.</p>
+                  <p style="padding-left: 4%"><a href="http://www.univ-artois.fr/international/partir-etudier-letranger/candidature-et-selection">Déposer un dossier de candidature</a></p>
+            </div>
+        </div> 
+    </div> 
+
+    <div class=row> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen">
+                <a id="interne6"><p class="titredesc">Les aides financières</p></a>
+                <p class="desc" >
+                  <p style="padding-left: 4%">Différentes aides financières existent pour aider les étudiants à réaliser leur mobilité d’études ou de stage. Les conditions d’éligibilité et les montants varient en fonction des financements.</p>
+                  <br>
+                  <p style="padding-left: 4%"><a href="http://www.univ-artois.fr/international/partir-etudier-letranger/financements">Plus d’infos sur les financements et les modalités de demande auprès du Service des Relations Internationales de l’Université d’Artois.</a></p>
+
+           
+            </div>
+      </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen6" >
+          </div>
+        </div>
+    </div> 
+
+    <div class="row espacefooter"> 
+        <div class="col-sm-5 col-md-5 offset-md-2" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen" id="boitegen7">
+            </div>
+        </div> 
+        
+        <div class="col-sm-5 col-md-5" style="padding-left :0px ; padding-right:0px">
+            <div class="boitegen3" >
+            	<a id="interne7"><p class="titredesc">Le niveau de langue exigé</p></a>
+                <p class="desc" >
+                  <p style="padding-left: 4%">Selon les lieux, les niveaux de langue requis peuvent varier. Les références indiquées pour chaque destination correspondent aux critères du <a href="https://www.france-langue.fr/pedagogie-du-francais/niveaux-de-fran%C3%A7ais.html">Cadre Européen de Référence pour les langues</a>.</p>
+                  <p style="padding-left: 4%">Les professeurs de langue des différents départements aident les étudiants à évaluer leur niveau.</p>
+                  <p style="padding-left: 4%"><a href="http://www.univ-artois.fr/formations/la-maison-des-langues">La Maison des Langues de l’Université d’Artois</a> propose des ateliers de renforcement et des tests de niveau gratuits à tous les étudiants de l’Université.
+                </p>
+            </div>
+        </div> 
+    </div>
+    <a id="retour" href="#"></a>     
+  </main>
+
+  <footer class="blog-footer container-nogutter static-bottom">
+      <div id="grille" class="row">
+      <div id="recherche" class="col-6">
+        <div class="container-nogutter">
+          <div class="row">
+            <div class="col-5" id="reperage">
+              <h2>REPERAGE</h2>
+              <ul  type="square" class="list">
+              <h5><li>INTERNATIONAL</li></h5>
+                <li class="info2"><a class="info" href="./Projet.html">Partir à l'étranger</a></li>
+                <li class="info2"><a class="info" href="./objectifs.html">Objectives (EN)</a></li>
+                <li class="info2"><a class="info" href="./PageDesCV.html">CV</a></li>
+                <li class="info2"><a class="info" href="./Formulaire-final.html">Formulaire</a></li>
+                <li class="info2"><a class="info" href="./conseil.html">Conseils</a></li>
+              </ul>
+            </div>
+            <div class="col-6" id="infosurnous">
+              <h2>LES INFOS SUR NOUS</h2>
+                <ul  type="square" class="list">
+                  <li><a class="info" href="http://www.iut-lens.univ-artois.fr/contact/annuaire/">Annuaire</a></li>
+                  <li><a class="info" href="http://www.iut-lens.univ-artois.fr/mentions-legales/">Mentions légales</a></li>
+                  <li><a class="info" href="http://www.iut-lens.univ-artois.fr/contacts/contacter-liut-de-lens/">Contacter l'IUT de Lens</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div id="reseaux" class="col-3">
+        <center><h2> VOUS POUVEZ NOUS SUIVRE</h2></center>
+                <div id="logores">
+            <map name="logo" id="logo">
+              <area shape="circle" target="_blank" coords="25,25,25" href="https://www.facebook.com/IUT.DE.LENS" alt="Facebook" />
+            </map>
+            <map name="logo3" id="logo3">
+              <area shape="circle" target="_blank" coords="25,25,25" href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFZVeQk3S6FWgAAAW8zjdIQTmIJ9imxVIN2-7z_nyuaWXwcTFJ4-zFGj6Q0_oFMVBM5zkG7o5tL64K9km6QRUdiufmPvOeO7v0NmrrKQmle1zYNvRQ9kjxgWdFqv_V9NQja9bM=&originalReferer=http://www.iut-lens.univ-artois.fr/international/partir-etudier-a-letranger/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fschool%2Fiut-de-lens%2F" alt="Linkedin" />
+            </map>
+            <map name="logo2" id="logo2">
+              <area shape="circle" target="_blank" coords="25,25,25" href="https://www.youtube.com/channel/UCND_qTgiKH9g6XeK_r2iNzw" alt="Youtube" />
+            </map>
+            <map name="logo4" id="logo4">
+              <area shape="circle" target="_blank" coords="25,25,25" href="https://twitter.com/IUTdeLens?lang=fr" alt="Twitter" />
+            </map>
+            <img class="reseaux" src="./Images/logofb.png" alt="Plan" usemap="#logo" />
+            <img class="reseaux" src="./Images/logoyt.png" alt="Plan" usemap="#logo2" />
+            <img class="reseaux" src="./Images/logoln.png" alt="Plan" usemap="#logo3" />
+            <img class="reseaux" src="./Images/logotwitter.png" alt="Plan" usemap="#logo4" />
+                </div>
+          </div>
+
+      <div id="contact" class="col-3">
+            <center><h2> CONTACT</h2>
+               <section> 
+                      <center>
+              <p>Service des Relations Internationales<br />
+                        9 rue du Temple &#8211; BP 10665<br />
+                        62030 Arras cedex<br />
+                        France
+                      </p></center>
+                <p>
+                    <a href="mailto:sri@univ-artois.fr" target="_self">Courriel</a>
+              </p>
+            </section>
+        </center>
+      </div>
+    </div>
+
+    <div class="blog-footer container-nogutter">
+      <div id="droit" class="row">
+        <div id="droitcopy" class="col-9 col-offset-1">
+          © 2015 IUT de Lens - Rue de l’université -SP 16 - 62307 LENS Cedex - FRANCE - Tel : +33 (0)3 21 79 32 32
+        </div>
+        <div class="col-2 ">
+          <a id="univartois" href="http://www.iut-lens.univ-artois.fr"><img id="univartoisi" src="./Images/Univb.png"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

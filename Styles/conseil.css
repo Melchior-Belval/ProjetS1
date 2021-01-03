@@ -1,0 +1,395 @@
+@font-face { font-family: "Helvetica Neue"; src: url('../Polices/HelveticaNeue-Thin.otf'); }
+@font-face { font-family: "Tw cen bold"; src: url('../Polices/Twcenbold.ttf'); }
+
+
+*{
+    margin-left:0px;
+    padding: 0px;
+    font-family: "Helvetica Neue";
+}
+
+
+#logo {
+    z-index: 1;
+    height: 10%;
+    position: absolute;
+}
+
+header {
+    background-color: rgba(4, 72, 130, 0.6);
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 5rem;
+    overflow-x: hidden;
+}
+
+header .lien {
+    opacity: 100%;
+    padding-top: 5%;
+}
+
+header img{
+    position: absolute;
+    width: 5rem;
+}
+
+.lien {
+    content :" | ";
+    margin-right: 5px;
+    color :black
+}
+
+.lien:hover {
+    text-decoration: none;
+}
+.nav-scroller {
+    height: 2rem;
+    padding :0;
+    margin: 0;
+}
+
+nav.haut{
+    height: 100%;
+    width:100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+nav.haut ul{
+    list-style-type: none;
+}
+
+nav.haut ul::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+nav.haut a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+nav.haut a:hover {
+    color:orange;
+    border-bottom: 2px solid gold;
+}
+
+
+nav.haut > ul li:hover .sous {
+    display: block;
+}
+
+nav.haut .deroulant .sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+nav.haut .deroulant .sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+nav.haut .deroulant .sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+nav.haut .deroulant > a::after {
+    content:" ▼";
+    font-size: 15px;
+}
+
+nav.haut .deroulant .sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    font-size: 11px;
+}
+
+nav.haut ul li {
+    float: left;
+    font-size: 15px;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+
+
+.image {
+    width :100%;
+    height: 375px;
+    background-image: url(../Images/banniere.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    margin-top: 1%;
+}
+
+.textebg {
+    color: white;
+}
+
+
+.F1{
+    background-color: #E71D73;
+}
+
+.F2{
+    background-color: #00AF9E;
+}
+
+.F3{
+    background-color: #EB8915;
+}
+
+.F4{
+    background-color:rgb(4, 72, 130, 0.3);
+}
+
+.F5{
+    background-color:#D7DB2D;
+}
+
+body {
+    margin-left: 10%;
+}
+
+
+.paragraphe {
+    height: 24rem;
+}
+#tropp {
+    height: 50%;
+}
+
+.titrep1 {
+    font-weight: bold;
+}
+
+.titrep2{
+    font-weight: bold;
+
+}
+
+.textep1 {
+    padding-left: 5rem;
+}
+
+.textep2 {
+    text-align: right;
+}
+
+#modifp1 {
+    font-size: 17px;
+}
+
+#modifp2 {
+    font-size: 17px;
+}
+
+.imagep img {
+    height: 50%;
+}
+
+.imageorga{
+  margin-left: -50px;
+}
+
+.imagelogem{
+  padding-top: 80px;
+  padding-left:50px;
+}
+
+#tropg1 img {
+    padding-left: 5rem;
+    height: 40%;
+    margin-top: 100px; 
+}
+
+#tropg2 img {
+    padding-left: 5rem;
+    height: 50%;
+    padding-top: 2rem;
+    margin-top: 100px;
+}
+
+#tropg3 img {
+    padding-right: 25rem;
+    padding-top: 3rem;
+    height: 50%;
+}
+
+#tropg4 img {
+    padding-left: 5rem;
+    height: 35%;
+    padding-top: 2rem;
+    margin-top: 100px;
+}
+
+#tropg5 img {
+    margin-top: -50%;
+    padding-left: 100px; 
+    height: 60%
+}
+
+
+.assurance{
+  height:100%;
+  padding-top: 2rem;
+  margin-top: 40px;
+}
+
+.intro {
+    height: auto;
+}
+
+.paragraphe li {
+    list-style-type: none;
+}
+.content ul li:before {
+  content: "\25A0  ";
+  color:#E71D73 ;
+  }
+
+.droite {
+    list-style-position: inside;
+    list-style-type: square;
+    padding-left: 5rem;
+}
+
+footer{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color:#BCBCBC;
+    margin-top: 20px;
+    overflow: hidden;
+    z-index: 9999999;
+}
+
+#contact{
+    padding-top: 20px;
+    border-left: solid 1px;
+    border-color:#BCBCBC;
+}
+
+.reseaux {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+#contact section p a:hover{
+    color:orange;
+    border-bottom: 1px solid gold;
+}
+
+#logores{
+    margin-right: 100px;
+    margin-top: 30px;
+    float:right;
+}
+
+#recherche{
+    border-right: solid 1px;
+    border-color:#BCBCBC;
+}
+
+#reseaux{
+    padding-top:20px;
+}
+
+#grille{
+    border-bottom: solid 1px;
+    border-color:#BCBCBC;
+    background-color:rgba(4,72,130,0.6);
+}
+
+
+#univartois {
+    padding-top: 20px;
+    margin-left: 11rem;
+}
+
+#univartoisi {
+    padding-top: 20px;
+    height: 85%;
+    padding-left: 9%;
+}
+
+#droitcopy{
+    color:white;
+    padding-top: 50px;
+    padding-left: 125px;
+}
+
+#droit{
+    padding-bottom: 20px;
+    background-color:rgba(4,72,130);
+}
+
+.info{
+    color:black;
+    margin-top: 15px;
+}
+
+#infosurnous{
+    padding-top: 20px;
+}
+
+#infosurnous h2{
+    margin-left:25px;
+}
+
+.list{
+    margin-top: 20px;
+    margin-left: 40px
+}
+
+.info2{
+    margin-left:10px;
+}
+
+#reperage{
+    padding-top:10px;
+    margin-left: 80px;
+}
+
+#reperage h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#retour {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 120%;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    background-image: url(../Images/flechee2.png);
+    background-position: center;
+}
+#retour:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#retour:active {
+    background-color: #555;
+}
